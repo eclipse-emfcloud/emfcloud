@@ -1,3 +1,5 @@
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/eclipse-emfcloud/emfcloud) 
+
 # emf.cloud
 This is the umbrella project for the [emf.cloud](https://projects.eclipse.org/projects/ecd.emfcloud) project.
 
