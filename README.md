@@ -7,7 +7,7 @@ For more information, please visit the [EMF.cloud Website](https://www.eclipse.o
 * [modelserver](https://github.com/eclipse-emfcloud/emfcloud-modelserver)
 * [modelserver-theia](https://github.com/eclipse-emfcloud/emfcloud-modelserver-theia)
 * [coffee.editor](https://github.com/eclipsesource/coffee-editor/)
-* [ecore-glsp](https://github.com/eclipsesource/ecore-glsp)
+* [ecore-glsp](https://github.com/eclipse-emfcloud/ecore-glsp)
 
 # Used components
 * [GLSP](https://eclipse.org/glsp)
