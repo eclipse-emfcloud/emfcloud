@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fileset-config file-format-version="1.2.0" simple-config="true" sync-formatter="false">
+  <local-check-config name="EMFcloud Checkstyle" location="https://raw.githubusercontent.com/eclipse-emfcloud/emfcloud/tortmayr/issues/19/codestyle/org.eclipse.emfcloud.checkstyle/src/main/resources/emfcloud-checkstyle.xml" type="remote" description="The central checkstyle configuration for emfcloud">
+    <additional-data name="cache-props-file-location" value="EMFcloud Checkstyle_1618908540765_cache.properties"/>
+    <additional-data name="cache-file" value="true"/>
+    <additional-data name="cache-file-location" value="EMFcloud Checkstyle_1618908540765_cache.xml"/>
+  </local-check-config>
+  <fileset name="all" enabled="true" check-config-name="EMFcloud Checkstyle" local="true">
+    <file-match-pattern match-pattern="." include-pattern="true"/>
+  </fileset>
+</fileset-config>
+
