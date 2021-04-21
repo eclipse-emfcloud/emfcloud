@@ -18,10 +18,10 @@ pipeline {
         stage('Deploy') {
             when { 
                 allOf {
-                    branch 'master';
+                    branch 'tortmayr/issues/19';
                     /* Only trigger the deployment job if files inside the `codestyle/org.eclipse.emfcloud.checkstyle` 
-                     are part of the change set.*/
-                    changeset  pattern: "^codestyle/org.eclipse.emfcloud.checkstyle", comparator: "REGEXP";  
+                     are part of the change set.*/ 
+                    changeset "*/codestyle/org.eclipse.emfcloud.checkstyle/**";  
                 }
             }
             steps {
