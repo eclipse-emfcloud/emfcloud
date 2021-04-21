@@ -7,11 +7,11 @@ projects.
 
 The `eclipse` directory contains the EMF.cloud settings for formatting and clean-up of Java code as well as code templates. You can use these settings on a per-project basis by simply copying the `.settings` directory into your Eclipse project.
 
-Alternatively, these settings can also be configured globally. This can be done in the preferences ( Window -> Preferences -> Java -> Code Style) by creating a new Profile and import the settings from the corresponding .xml file of the `eclipse` directory.
+Alternatively, these settings can also be configured globally. This can be done in the preferences (Window > Preferences > Java > Code Style) by creating a new profile and import the settings from the corresponding .xml file of the `eclipse` directory.
 
 ### Usage in alternative IDEs
 
-The Code style settings are intended for usage in the Eclipse IDE, however, some alternative IDEs provide support to import Eclipse-specific code formatter settings.
+The code style settings are intended for usage in the Eclipse IDE, however, some alternative IDEs provide support to import Eclipse-specific code formatter settings.
 
 If you want to use them in IntelliJ Idea you can follow the instructions in [this blog post](https://blog.jetbrains.com/idea/2014/01/intellij-idea-13-importing-code-formatter-settings-from-eclipse/).
 
@@ -87,9 +87,9 @@ If you are using a SNAPSHOT version of `org.eclipse.emfcloud.checkstyle` you als
 
 Checkstyle integration into the Eclipse IDE can be achieved with the help of the `Eclipse Checkstyle Plugin`. Go to <https://checkstyle.org/eclipse-cs/#!/> and follow the instructions to install the plugin.
 
-The `eclipse` directory contains a preconfigured `.checkstyle` file to use the EMF.cloud checkstyle rules in your Eclipse project. Simply copy the file into your Eclipse project and then activate checkstyle with: right-click on your project ->  Checkstyle -> Activate checkstyle.
+The `eclipse` directory contains a preconfigured `.checkstyle` file to use the EMF.cloud checkstyle rules in your Eclipse project. Simply copy the file into your Eclipse project and then activate checkstyle with: right-click on your project >  Checkstyle > Activate checkstyle.
 
-Alternatively, you can also setup a manual configuration. Go to Window -> Preferences -> Checkstyle and setup new Global Check Configuration by clicking the 'New...' button.
+Alternatively, you can also setup a manual configuration. Go to Window > Preferences > Checkstyle and setup new Global Check Configuration by clicking the 'New...' button.
 
 As type choose 'Remote Configuration' and as location use the raw link to the [custom checkstyle configuration](codestyle/org.eclipse.emfcloud.checkstyle/src/main/resources/emfcloud-checkstyle.xml):
 

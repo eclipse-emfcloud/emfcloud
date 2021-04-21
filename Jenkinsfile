@@ -8,8 +8,8 @@ pipeline {
 
     stages {
         stage ('Build Checkstyle project') {
-            steps{
-               dir('codestyle/org.eclipse.emfcloud.checkstyle'){
+            steps {
+               dir('codestyle/org.eclipse.emfcloud.checkstyle') {
                     sh 'mvn clean verify ' 
                 }
             }
@@ -19,8 +19,8 @@ pipeline {
             when { 
                 allOf {
                     branch 'master';
-                    /* Only trigger the deployment job if filse inside of the `odestyle/org.eclipse.emfcloud.checkstyle` 
-                     are part of the  change set.*/
+                    /* Only trigger the deployment job if files inside the `codestyle/org.eclipse.emfcloud.checkstyle` 
+                     are part of the change set.*/
                     changeset  pattern: "^codestyle/org.eclipse.emfcloud.checkstyle", comparator: "REGEXP";  
                 }
             }
