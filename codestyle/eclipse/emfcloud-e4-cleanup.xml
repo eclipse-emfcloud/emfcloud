@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <profiles version="2">
-    <profile kind="CleanUpProfile" name="'Modelserver cleanup profile'" version="2">
+    <profile kind="CleanUpProfile" name="'EMF.cloud Cleanup Profile'" version="2">
         <setting id="cleanup.use_autoboxing" value="true"/>
         <setting id="cleanup.always_use_this_for_non_static_method_access" value="false"/>
         <setting id="cleanup.remove_trailing_whitespaces_ignore_empty" value="false"/>

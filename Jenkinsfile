@@ -19,7 +19,9 @@ pipeline {
             when { 
                 allOf {
                     branch 'master';
-                    changeset  pattern: "codestyle/org.eclipse.emfcloud.checkstyle", comparator: "REGEXP";  
+                    /* Only trigger the deployment job if filse inside of the `odestyle/org.eclipse.emfcloud.checkstyle` 
+                     are part of the  change set.*/
+                    changeset  pattern: "^codestyle/org.eclipse.emfcloud.checkstyle", comparator: "REGEXP";  
                 }
             }
             steps {
