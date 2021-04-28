@@ -239,8 +239,9 @@
   <module name="Translation" />
   <module name="RegexpHeader">
     <property name="header"
-      value="^\/\*{2,80}$\n^ \* Copyright( \(c\))? \d\d\d\d(-\d\d\d\d)?.+$\n^ \*$\n^ \* This program and the accompanying materials are made available under the$\n^ \* terms of the Eclipse Public License v\. 2\.0 which is available at$\n^ \* https\:\/\/www\.eclipse\.org\/legal\/epl-2\.0, or the MIT License which is$\n^ \* available at https\:\/\/opensource\.org\/licenses\/MIT\.$\n^ \*$\n^ \* SPDX-License-Identifier\: EPL-2\.0 OR MIT$\n^ \*{1,80}\/$" />
+      value="^\/\*{2,80}$\n^ \* Copyright( \(c\))? \d\d\d\d(-\d\d\d\d)?.+\.$\n^ \*.+$\n^ \*$\n \* This program and the accompanying materials are made available under the$\n^ \* terms of the Eclipse Public License v\. 2\.0 which is available at$\n^ \* https\:\/\/www\.eclipse\.org\/legal\/epl-2\.0/*" />
     <property name="fileExtensions" value="java" />
+    <property name="multiLines" value="3"/>
   </module>
   <module name="SuppressWarningsFilter" />
 </module>

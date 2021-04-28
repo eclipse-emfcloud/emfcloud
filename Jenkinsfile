@@ -18,10 +18,12 @@ pipeline {
         stage('Deploy') {
             when { 
                 allOf {
-                    branch 'tortmayr/issues/19';
-                    /* Only trigger the deployment job if files inside the `codestyle/org.eclipse.emfcloud.checkstyle` 
-                     are part of the change set.*/ 
-                    changeset "*/codestyle/org.eclipse.emfcloud.checkstyle/**";  
+                    branch 'master';
+                    expression {  
+                      /* Only trigger the deployment job if files inside the `codestyle/org.eclipse.emfcloud.checkstyle` 
+                      are part of the change set.*/ 
+                      sh(returnStatus: true, script: 'git diff --name-only HEAD^ | grep --quiet "^codestyle/org.eclipse.emfcloud.checkstyle"') == 0
+                    }
                 }
             }
             steps {
