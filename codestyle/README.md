@@ -1,4 +1,4 @@
-# EMF.cloud Codestyle
+# EMF.cloud Codestyle [![build-status](https://img.shields.io/jenkins/build?jobUrl=https://ci.eclipse.org/emfcloud/job/eclipse-emfcloud/job/emfcloud/job/master/)](https://ci.eclipse.org/emfcloud/job/eclipse-emfcloud/job/emfcloud/job/master/) [![publish-status](https://img.shields.io/jenkins/build?jobUrl=https://ci.eclipse.org/emfcloud/job/deploy-emfcloud-checkstyle-m2/&label=publish)](https://ci.eclipse.org/emfcloud/job/deploy-emfcloud-checkstyle-m2/)
 
 Collection of common reusable resources for code formatting and code checks in EMF.cloud Java
 projects.
