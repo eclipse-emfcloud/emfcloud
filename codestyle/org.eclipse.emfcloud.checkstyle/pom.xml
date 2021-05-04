@@ -4,8 +4,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>org.eclipse.emfcloud.checkstyle</artifactId>
 	<groupId>org.eclipse.emfcloud</groupId>
-	<version>0.1.0-SNAPSHOT</version>
+	<version>0.1.0-RC1</version>
 	<packaging>jar</packaging>
+	<description>EMF.cloud Checkstyle</description>
 
 	<name>EMF.cloud Checkstyle Configuration</name>
 	<url>https://www.eclipse.org/emfcloud</url>
@@ -103,7 +104,7 @@
 						<configuration>
 							<serverId>ossrh</serverId>
 							<nexusUrl>https://oss.sonatype.org/</nexusUrl>
-							<autoreleaseafterclose>false</autoreleaseafterclose>
+							<autoreleaseafterclose>true</autoreleaseafterclose>
 						</configuration>
 					</plugin>
 
