@@ -1,7 +1,7 @@
 # emf.cloud
 This is the umbrella project for the [emf.cloud](https://projects.eclipse.org/projects/ecd.emfcloud) project.
 
-For more information, please visit the [EMF.cloud Website](https://www.eclipse.org/emfcloud/). If you have questions, contact us on our [spectrum chat](https://spectrum.chat/emfcloud/) and have a look at our [communication and support options](https://www.eclipse.org/emfcloud/contact/).
+For more information, please visit the [EMF.cloud Website](https://www.eclipse.org/emfcloud/). If you have questions, contact us on our [discussions page](https://github.com/eclipse-emfcloud/emfcloud/discussions) and have a look at our [communication and support options](https://www.eclipse.org/emfcloud/contact/).
 
 # Components
 * [modelserver](https://github.com/eclipse-emfcloud/emfcloud-modelserver)
