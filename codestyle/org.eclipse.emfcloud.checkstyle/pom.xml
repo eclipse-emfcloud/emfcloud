@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>org.eclipse.emfcloud.checkstyle</artifactId>
 	<groupId>org.eclipse.emfcloud</groupId>
-	<version>0.1.0-RC1</version>
+	<version>0.1.0-RC02</version>
 	<packaging>jar</packaging>
 	<description>EMF.cloud Checkstyle</description>
 
@@ -44,7 +44,6 @@
 
 	<build>
 		<plugins>
-
 			<!-- We must generate an empty source JAR file to publish on Maven Central -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
