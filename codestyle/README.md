@@ -19,9 +19,11 @@ The VSCode Java Language support also offers the possibility to configure [an xm
 
 ## Checkstyle
 
-[Checkstyle](https://checkstyle.sourceforge.io/) is used for static code analysis in EMF.cloud Java projects. A [custom checkstyle configuration](codestyle/org.eclipse.emfcloud.checkstyle/src/main/resources/emfcloud-checkstyle.xml) for EMF.cloud is provided and
+[Checkstyle](https://checkstyle.sourceforge.io/) is used for static code analysis in EMF.cloud Java projects. A [custom checkstyle configuration](codestyle/org.eclipse.emfcloud.checkstyle/src/main/resources/emfcloud-checkstyle-8.44.xml) for EMF.cloud is provided and
 can be integrated in the build process via maven as well as directly into the Eclipse IDE.
-The recommended checkstyle version is [`8.39`](https://checkstyle.sourceforge.io/releasenotes.html#Release_8.39).
+The recommended checkstyle version is [`8.44`](https://checkstyle.sourceforge.io/releasenotes.html#Release_8.44).
+
+For a smoother transition period we also maintain the second-to-last revision of checkstyle configuration (currently [8.39](org.eclipse.emfcloud.checkstyle/src/main/resources/emfcloud-checkstyle-8.39.xml)) but we recommend to switch to the latest revision as soon as possible.
 
 ### Usage in maven
 
@@ -43,7 +45,7 @@ The `pom.xml` of your project has to be configured like this:
                     <dependency>
                         <groupId>com.puppycrawl.tools</groupId>
                         <artifactId>checkstyle</artifactId>
-                        <version>8.39</version>
+                        <version>8.44</version>
                     </dependency>
                     <dependency>
                         <groupId>org.eclipse.emfcloud</groupId>
@@ -52,7 +54,7 @@ The `pom.xml` of your project has to be configured like this:
                     </dependency>
                 </dependencies>
                 <configuration>
-                    <configLocation>emfcloud-checkstyle.xml</configLocation>
+                    <configLocation>emfcloud-checkstyle-8.44.xml</configLocation>
                 </configuration>
             </plugin>
             ...
@@ -93,4 +95,4 @@ Alternatively, you can also setup a manual configuration. Go to Window > Prefere
 
 As type choose 'Remote Configuration' and as location use the raw link to the [custom checkstyle configuration](codestyle/org.eclipse.emfcloud.checkstyle/src/main/resources/emfcloud-checkstyle.xml):
 
-<https://raw.githubusercontent.com/eclipse-emfcloud/emfcloud/master/codestyle/org.eclipse.emfcloud.checkstyle/src/main/resources/emfcloud-checkstyle.xml>
+<https://raw.githubusercontent.com/eclipse-emfcloud/emfcloud/master/codestyle/org.eclipse.emfcloud.checkstyle/src/main/resources/emfcloud-checkstyle-8.44.xml>
