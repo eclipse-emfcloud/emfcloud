@@ -13,6 +13,7 @@ For more information, please visit the [EMF.cloud Website](https://www.eclipse.o
 
 # Components
 * [modelserver](https://github.com/eclipse-emfcloud/emfcloud-modelserver)
+* [modelserver-node](https://github.com/eclipse-emfcloud/modelserver-node)
 * [modelserver-theia](https://github.com/eclipse-emfcloud/emfcloud-modelserver-theia)
 * [model-validation](https://github.com/eclipse-emfcloud/model-validation)
 * [coffee.editor](https://github.com/eclipsesource/coffee-editor/)
