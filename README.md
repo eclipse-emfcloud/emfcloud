@@ -5,13 +5,13 @@ EMF.cloud is the umbrella project for components and technologies making it easy
 For more information, please visit the [EMF.cloud Website](https://www.eclipse.org/emfcloud/). If you have questions, contact us on our [discussions page](https://github.com/eclipse-emfcloud/emfcloud/discussions) and have a look at our [communication and support options](https://www.eclipse.org/emfcloud/contact/).
 
 <div width="85%" align="center" style="padding-top:1em; padding-bottom:1em;">
-  <a href="https://www.eclipse.org/emfcloud/#coffeeeditoroverview">
-  <img src="https://www.eclipse.org/emfcloud/images/coffeeeditordemo.gif" alt="EMF.cloud in action" style="border-radius:1%; box-shadow: 2px 2px 8px gray" />
-  <br/><b>EMF.cloud in Action</b>
-  </a>
+  <img src="https://www.eclipse.org/emfcloud/images/coffeeeditordemo.gif" alt="EMF.cloud in action"/>
+  <br/>
+  <a href="https://www.eclipse.org/emfcloud/#coffeeeditoroverview"><b>EMF.cloud in Action</b></a>
 </div>
 
-# Components
+## Components
+
 * [modelserver](https://github.com/eclipse-emfcloud/emfcloud-modelserver)
 * [modelserver-node](https://github.com/eclipse-emfcloud/modelserver-node)
 * [modelserver-theia](https://github.com/eclipse-emfcloud/emfcloud-modelserver-theia)
@@ -23,6 +23,7 @@ For more information, please visit the [EMF.cloud Website](https://www.eclipse.o
 * [modelserver-glsp-integration](https://github.com/eclipse-emfcloud/modelserver-glsp-integration)
 * [emf-jackson](https://github.com/eclipse-emfcloud/emfjson-jackson)
 
-# Used components
+## Used components
+
 * [GLSP](https://eclipse.org/glsp)
 * [JSONForms](https://jsonforms.io/)
